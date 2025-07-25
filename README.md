@@ -1,4 +1,4 @@
-# Тестовое задание ссылка - https://kukidon.pythonanywhere.com/ref/
+# Тестовое задание ссылка - https://kukidon.pythonanywhere.com (тут весь django проект) работа приложения для пооользователя - https://kukidon.pythonanywhere.com/ref/
 
 
 Все зависимости описаны в файле `requirements.txt`.
