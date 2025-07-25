@@ -6,7 +6,7 @@
 
 1.  Клонируйте репозиторий:
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/kukidon820/referal_task_with_django.git
     cd <папка-с-проектом>
     ```
 
