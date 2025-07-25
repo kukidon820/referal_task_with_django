@@ -1,4 +1,4 @@
-# Тестовое задание 
+# Тестовое задание ссылка - https://kukidon.pythonanywhere.com/
 
 
 Все зависимости описаны в файле `requirements.txt`.
