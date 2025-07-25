@@ -1,0 +1,21 @@
+{% extends "referalsite/base.html" %}
+
+
+{% block title %}Verify Code{% endblock %}
+
+{% block content %}
+<div class="form-container">
+    <h2>Введите код приглашения</h2>
+    <p>Код был отправлен на номер <strong>{{ phone_number }}</strong></p>
+    <form method="post">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="code" class="form-label">Код подтверждения</label>
+            <input type="text" class="form-control" id="code" name="code" placeholder="1234" maxlength="4" required>
+            <div class="form-text">Введите код из 4 цифр который вы получили</div>
+        </div>
+        <button type="submit" class="btn btn-success">Подтвердить</button>
+        <a href="{% url 'send_code' %}" class="btn btn-secondary">Назад</a>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,8 @@
+Django~=5.2.4
+djangorestframework~=3.16.0
+psycopg2-binary
+python-decouple
+gunicorn
+drf-spectacular
+phonenumbers
+django-filter~=25.1

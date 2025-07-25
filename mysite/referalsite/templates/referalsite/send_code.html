@@ -1,0 +1,19 @@
+{% extends "referalsite/base.html" %}
+
+
+{% block title %}Send Code{% endblock %}
+
+{% block content %}
+<div class="form-container">
+    <h2>Введите ваш номер телефона</h2>
+    <form method="post">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="phone_number" class="form-label">Номер телефона</label>
+            <input type="text" class="form-control" id="phone_number" name="phone_number" placeholder="+375(44)1112233" required>
+            <div class="form-text">Формат: +375(44)1112233</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить код</button>
+    </form>
+</div>
+{% endblock %}
